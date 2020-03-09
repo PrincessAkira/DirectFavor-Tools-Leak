@@ -1,0 +1,395 @@
+Windows Registry Editor Version 5.00
+
+;============================
+;Created with Reg File Merger
+;
+;http://xpero.msfn.org
+;============================
+
+; Created by: Shawn Brink
+; Created on: July 27th 2016
+; Tutorial: http://www.tenforums.com/tutorials/57567-services-restore-default-services-windows-10-a.html
+
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\DcomLaunch]
+"FailureActions"=hex:00,00,00,00,00,00,00,00,00,00,00,00,01,00,00,00,00,00,00,\
+  00,02,00,00,00,60,ea,00,00
+"RequiredPrivileges"=hex(7):53,00,65,00,41,00,73,00,73,00,69,00,67,00,6e,00,50,\
+  00,72,00,69,00,6d,00,61,00,72,00,79,00,54,00,6f,00,6b,00,65,00,6e,00,50,00,\
+  72,00,69,00,76,00,69,00,6c,00,65,00,67,00,65,00,00,00,53,00,65,00,41,00,75,\
+  00,64,00,69,00,74,00,50,00,72,00,69,00,76,00,69,00,6c,00,65,00,67,00,65,00,\
+  00,00,53,00,65,00,43,00,68,00,61,00,6e,00,67,00,65,00,4e,00,6f,00,74,00,69,\
+  00,66,00,79,00,50,00,72,00,69,00,76,00,69,00,6c,00,65,00,67,00,65,00,00,00,\
+  53,00,65,00,43,00,72,00,65,00,61,00,74,00,65,00,47,00,6c,00,6f,00,62,00,61,\
+  00,6c,00,50,00,72,00,69,00,76,00,69,00,6c,00,65,00,67,00,65,00,00,00,53,00,\
+  65,00,44,00,65,00,62,00,75,00,67,00,50,00,72,00,69,00,76,00,69,00,6c,00,65,\
+  00,67,00,65,00,00,00,53,00,65,00,49,00,6d,00,70,00,65,00,72,00,73,00,6f,00,\
+  6e,00,61,00,74,00,65,00,50,00,72,00,69,00,76,00,69,00,6c,00,65,00,67,00,65,\
+  00,00,00,53,00,65,00,49,00,6e,00,63,00,72,00,65,00,61,00,73,00,65,00,51,00,\
+  75,00,6f,00,74,00,61,00,50,00,72,00,69,00,76,00,69,00,6c,00,65,00,67,00,65,\
+  00,00,00,53,00,65,00,54,00,63,00,62,00,50,00,72,00,69,00,76,00,69,00,6c,00,\
+  65,00,67,00,65,00,00,00,53,00,65,00,42,00,61,00,63,00,6b,00,75,00,70,00,50,\
+  00,72,00,69,00,76,00,69,00,6c,00,65,00,67,00,65,00,00,00,53,00,65,00,52,00,\
+  65,00,73,00,74,00,6f,00,72,00,65,00,50,00,72,00,69,00,76,00,69,00,6c,00,65,\
+  00,67,00,65,00,00,00,00,00
+"ServiceSidType"=dword:00000001
+"DisplayName"="@combase.dll,-5012"
+"ErrorControl"=dword:00000001
+"Group"="COM Infrastructure"
+"ImagePath"=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,\
+  74,00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,73,\
+  00,76,00,63,00,68,00,6f,00,73,00,74,00,2e,00,65,00,78,00,65,00,20,00,2d,00,\
+  6b,00,20,00,44,00,63,00,6f,00,6d,00,4c,00,61,00,75,00,6e,00,63,00,68,00,00,\
+  00
+"Start"=dword:00000002
+"Type"=dword:00000020
+"Description"="@combase.dll,-5013"
+"ObjectName"="LocalSystem"
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\DcomLaunch\Parameters]
+"ServiceDll"=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,\
+  00,74,00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,\
+  72,00,70,00,63,00,73,00,73,00,2e,00,64,00,6c,00,6c,00,00,00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\DcomLaunch\Security]
+"Security"=hex:01,00,14,80,90,00,00,00,9c,00,00,00,14,00,00,00,30,00,00,00,02,\
+  00,1c,00,01,00,00,00,02,80,14,00,ff,00,0f,00,01,01,00,00,00,00,00,01,00,00,\
+  00,00,02,00,60,00,04,00,00,00,00,00,14,00,85,00,02,00,01,01,00,00,00,00,00,\
+  05,0b,00,00,00,00,00,14,00,ff,00,0e,00,01,01,00,00,00,00,00,05,12,00,00,00,\
+  00,00,18,00,fd,00,0e,00,01,02,00,00,00,00,00,05,20,00,00,00,20,02,00,00,00,\
+  00,18,00,85,00,00,00,01,02,00,00,00,00,00,05,20,00,00,00,21,02,00,00,01,01,\
+  00,00,00,00,00,05,12,00,00,00,01,01,00,00,00,00,00,05,12,00,00,00
+
+
+
+; Created by: Shawn Brink
+; Created on: April 27th 2017
+; Tutorial: https://www.tenforums.com/tutorials/57567-restore-default-services-windows-10-a.html
+
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\NaturalAuthentication]
+"DisplayName"="@%systemroot%\\system32\\NaturalAuth.dll,-100"
+"ErrorControl"=dword:00000001
+"ImagePath"=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,\
+  74,00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,73,\
+  00,76,00,63,00,68,00,6f,00,73,00,74,00,2e,00,65,00,78,00,65,00,20,00,2d,00,\
+  6b,00,20,00,6e,00,65,00,74,00,73,00,76,00,63,00,73,00,00,00
+"Start"=dword:00000003
+"Type"=dword:00000020
+"Description"="@%systemroot%\\system32\\NaturalAuth.dll,-101"
+"DependOnService"=hex(7):52,00,70,00,63,00,53,00,73,00,00,00,50,00,72,00,6f,00,\
+  66,00,53,00,76,00,63,00,00,00,53,00,63,00,68,00,65,00,64,00,75,00,6c,00,65,\
+  00,00,00,00,00
+"ObjectName"="LocalSystem"
+"RequiredPrivileges"=hex(7):53,00,65,00,54,00,63,00,62,00,50,00,72,00,69,00,76,\
+  00,69,00,6c,00,65,00,67,00,65,00,00,00,53,00,65,00,43,00,68,00,61,00,6e,00,\
+  67,00,65,00,4e,00,6f,00,74,00,69,00,66,00,79,00,50,00,72,00,69,00,76,00,69,\
+  00,6c,00,65,00,67,00,65,00,00,00,00,00
+"FailureActions"=hex:80,51,01,00,00,00,00,00,00,00,00,00,04,00,00,00,14,00,00,\
+  00,01,00,00,00,e8,03,00,00,01,00,00,00,c0,d4,01,00,01,00,00,00,e0,93,04,00,\
+  00,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\NaturalAuthentication\Parameters]
+"ServiceDll"=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,\
+  00,74,00,25,00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,\
+  4e,00,61,00,74,00,75,00,72,00,61,00,6c,00,41,00,75,00,74,00,68,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ServiceDllUnloadOnStop"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\NaturalAuthentication\Security]
+"Security"=hex:01,00,14,80,b8,00,00,00,c4,00,00,00,14,00,00,00,30,00,00,00,02,\
+  00,1c,00,01,00,00,00,02,80,14,00,ff,01,0f,00,01,01,00,00,00,00,00,01,00,00,\
+  00,00,02,00,88,00,06,00,00,00,00,00,14,00,fd,01,02,00,01,01,00,00,00,00,00,\
+  05,12,00,00,00,00,00,18,00,ff,01,0f,00,01,02,00,00,00,00,00,05,20,00,00,00,\
+  20,02,00,00,00,00,14,00,9d,01,02,00,01,01,00,00,00,00,00,05,04,00,00,00,00,\
+  00,18,00,9d,01,02,00,01,02,00,00,00,00,00,0f,02,00,00,00,01,00,00,00,00,00,\
+  14,00,8d,01,02,00,01,01,00,00,00,00,00,05,06,00,00,00,00,00,14,00,00,01,00,\
+  00,01,01,00,00,00,00,00,05,0b,00,00,00,01,01,00,00,00,00,00,05,12,00,00,00,\
+  01,01,00,00,00,00,00,05,12,00,00,00
+
+
+
+; Created by: Shawn Brink
+; Created on: July 27th 2016
+; Tutorial: http://www.tenforums.com/tutorials/57567-services-restore-default-services-windows-10-a.html
+
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\RpcSs]
+"FailureActions"=hex:00,00,00,00,00,00,00,00,00,00,00,00,01,00,00,00,00,00,00,\
+  00,02,00,00,00,60,ea,00,00
+"RequiredPrivileges"=hex(7):53,00,65,00,43,00,68,00,61,00,6e,00,67,00,65,00,4e,\
+  00,6f,00,74,00,69,00,66,00,79,00,50,00,72,00,69,00,76,00,69,00,6c,00,65,00,\
+  67,00,65,00,00,00,53,00,65,00,43,00,72,00,65,00,61,00,74,00,65,00,47,00,6c,\
+  00,6f,00,62,00,61,00,6c,00,50,00,72,00,69,00,76,00,69,00,6c,00,65,00,67,00,\
+  65,00,00,00,53,00,65,00,49,00,6d,00,70,00,65,00,72,00,73,00,6f,00,6e,00,61,\
+  00,74,00,65,00,50,00,72,00,69,00,76,00,69,00,6c,00,65,00,67,00,65,00,00,00,\
+  00,00
+"ServiceSidType"=dword:00000001
+"DisplayName"="@combase.dll,-5010"
+"ErrorControl"=dword:00000001
+"Group"="COM Infrastructure"
+"ImagePath"=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,\
+  74,00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,73,\
+  00,76,00,63,00,68,00,6f,00,73,00,74,00,2e,00,65,00,78,00,65,00,20,00,2d,00,\
+  6b,00,20,00,72,00,70,00,63,00,73,00,73,00,00,00
+"Start"=dword:00000002
+"Type"=dword:00000020
+"Description"="@combase.dll,-5011"
+"DependOnService"=hex(7):52,00,70,00,63,00,45,00,70,00,74,00,4d,00,61,00,70,00,\
+  70,00,65,00,72,00,00,00,44,00,63,00,6f,00,6d,00,4c,00,61,00,75,00,6e,00,63,\
+  00,68,00,00,00,00,00
+"ObjectName"="NT AUTHORITY\\NetworkService"
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\RpcSs\Parameters]
+"ServiceDll"=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,\
+  00,74,00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,\
+  72,00,70,00,63,00,73,00,73,00,2e,00,64,00,6c,00,6c,00,00,00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\RpcSs\Security]
+"Security"=hex:01,00,14,80,90,00,00,00,9c,00,00,00,14,00,00,00,30,00,00,00,02,\
+  00,1c,00,01,00,00,00,02,80,14,00,ff,00,0f,00,01,01,00,00,00,00,00,01,00,00,\
+  00,00,02,00,60,00,04,00,00,00,00,00,14,00,85,00,02,00,01,01,00,00,00,00,00,\
+  05,0b,00,00,00,00,00,14,00,ff,00,0e,00,01,01,00,00,00,00,00,05,12,00,00,00,\
+  00,00,18,00,fd,00,0e,00,01,02,00,00,00,00,00,05,20,00,00,00,20,02,00,00,00,\
+  00,18,00,85,00,00,00,01,02,00,00,00,00,00,05,20,00,00,00,21,02,00,00,01,01,\
+  00,00,00,00,00,05,12,00,00,00,01,01,00,00,00,00,00,05,12,00,00,00
+
+
+
+; Created by: Shawn Brink
+; Created on: July 27th 2016
+; Tutorial: http://www.tenforums.com/tutorials/57567-services-restore-default-services-windows-10-a.html
+
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\RpcLocator]
+"DisplayName"="@%systemroot%\\system32\\Locator.exe,-2"
+"ErrorControl"=dword:00000001
+"ImagePath"=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,\
+  74,00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,6c,\
+  00,6f,00,63,00,61,00,74,00,6f,00,72,00,2e,00,65,00,78,00,65,00,00,00
+"Start"=dword:00000003
+"Type"=dword:00000010
+"Description"="@%systemroot%\\system32\\Locator.exe,-3"
+"ObjectName"="NT AUTHORITY\\NetworkService"
+"RequiredPrivileges"=hex(7):53,00,65,00,43,00,68,00,61,00,6e,00,67,00,65,00,4e,\
+  00,6f,00,74,00,69,00,66,00,79,00,50,00,72,00,69,00,76,00,69,00,6c,00,65,00,\
+  67,00,65,00,00,00,00,00
+"FailureActions"=hex:84,03,00,00,00,00,00,00,00,00,00,00,03,00,00,00,14,00,00,\
+  00,01,00,00,00,c0,d4,01,00,01,00,00,00,e0,93,04,00,00,00,00,00,00,00,00,00
+
+
+
+; Created by: Shawn Brink
+; Created on: July 27th 2016
+; Tutorial: http://www.tenforums.com/tutorials/57567-services-restore-default-services-windows-10-a.html
+
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\RpcEptMapper]
+"DisplayName"="@%windir%\\system32\\RpcEpMap.dll,-1001"
+"ErrorControl"=dword:00000001
+"Group"="COM Infrastructure"
+"ImagePath"=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,\
+  74,00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,73,\
+  00,76,00,63,00,68,00,6f,00,73,00,74,00,2e,00,65,00,78,00,65,00,20,00,2d,00,\
+  6b,00,20,00,52,00,50,00,43,00,53,00,53,00,00,00
+"Start"=dword:00000002
+"Type"=dword:00000020
+"Description"="@%windir%\\system32\\RpcEpMap.dll,-1002"
+"ObjectName"="NT AUTHORITY\\NetworkService"
+"ServiceSidType"=dword:00000001
+"RequiredPrivileges"=hex(7):53,00,65,00,43,00,68,00,61,00,6e,00,67,00,65,00,4e,\
+  00,6f,00,74,00,69,00,66,00,79,00,50,00,72,00,69,00,76,00,69,00,6c,00,65,00,\
+  67,00,65,00,00,00,53,00,65,00,49,00,6d,00,70,00,65,00,72,00,73,00,6f,00,6e,\
+  00,61,00,74,00,65,00,50,00,72,00,69,00,76,00,69,00,6c,00,65,00,67,00,65,00,\
+  00,00,53,00,65,00,43,00,72,00,65,00,61,00,74,00,65,00,47,00,6c,00,6f,00,62,\
+  00,61,00,6c,00,50,00,72,00,69,00,76,00,69,00,6c,00,65,00,67,00,65,00,00,00,\
+  00,00
+"FailureActions"=hex:80,51,01,00,00,00,00,00,00,00,00,00,03,00,00,00,14,00,00,\
+  00,01,00,00,00,c0,d4,01,00,01,00,00,00,e0,93,04,00,00,00,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\RpcEptMapper\Parameters]
+"ServiceDll"=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,\
+  00,74,00,25,00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,\
+  52,00,70,00,63,00,45,00,70,00,4d,00,61,00,70,00,2e,00,64,00,6c,00,6c,00,00,\
+  00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\RpcEptMapper\Security]
+"Security"=hex:01,00,14,80,90,00,00,00,9c,00,00,00,14,00,00,00,30,00,00,00,02,\
+  00,1c,00,01,00,00,00,02,80,14,00,ff,00,0f,00,01,01,00,00,00,00,00,01,00,00,\
+  00,00,02,00,60,00,04,00,00,00,00,00,14,00,85,00,02,00,01,01,00,00,00,00,00,\
+  05,0b,00,00,00,00,00,14,00,ff,00,0e,00,01,01,00,00,00,00,00,05,12,00,00,00,\
+  00,00,18,00,fd,00,0e,00,01,02,00,00,00,00,00,05,20,00,00,00,20,02,00,00,00,\
+  00,18,00,95,00,00,00,01,02,00,00,00,00,00,05,20,00,00,00,21,02,00,00,01,01,\
+  00,00,00,00,00,05,12,00,00,00,01,01,00,00,00,00,00,05,12,00,00,00
+
+
+
+; Created by: Shawn Brink
+; Created on: July 27th 2016
+; Tutorial: http://www.tenforums.com/tutorials/57567-services-restore-default-services-windows-10-a.html
+
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SystemEventsBroker]
+"DisplayName"="@%windir%\\system32\\SystemEventsBrokerServer.dll,-1001"
+"ErrorControl"=dword:00000001
+"ImagePath"=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,\
+  74,00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,73,\
+  00,76,00,63,00,68,00,6f,00,73,00,74,00,2e,00,65,00,78,00,65,00,20,00,2d,00,\
+  6b,00,20,00,44,00,63,00,6f,00,6d,00,4c,00,61,00,75,00,6e,00,63,00,68,00,00,\
+  00
+"Start"=dword:00000002
+"Type"=dword:00000020
+"Description"="@%windir%\\system32\\SystemEventsBrokerServer.dll,-1002"
+"DependOnService"=hex(7):52,00,70,00,63,00,45,00,70,00,74,00,4d,00,61,00,70,00,\
+  70,00,65,00,72,00,00,00,52,00,70,00,63,00,53,00,73,00,00,00,00,00
+"ObjectName"="LocalSystem"
+"ServiceSidType"=dword:00000001
+"RequiredPrivileges"=hex(7):53,00,65,00,43,00,72,00,65,00,61,00,74,00,65,00,47,\
+  00,6c,00,6f,00,62,00,61,00,6c,00,50,00,72,00,69,00,76,00,69,00,6c,00,65,00,\
+  67,00,65,00,00,00,53,00,65,00,49,00,6d,00,70,00,65,00,72,00,73,00,6f,00,6e,\
+  00,61,00,74,00,65,00,50,00,72,00,69,00,76,00,69,00,6c,00,65,00,67,00,65,00,\
+  00,00,53,00,65,00,54,00,63,00,62,00,50,00,72,00,69,00,76,00,69,00,6c,00,65,\
+  00,67,00,65,00,00,00,53,00,65,00,43,00,72,00,65,00,61,00,74,00,65,00,50,00,\
+  65,00,72,00,6d,00,61,00,6e,00,65,00,6e,00,74,00,50,00,72,00,69,00,76,00,69,\
+  00,6c,00,65,00,67,00,65,00,00,00,00,00
+"FailureActions"=hex:80,51,01,00,00,00,00,00,00,00,00,00,03,00,00,00,14,00,00,\
+  00,02,00,00,00,c0,d4,01,00,02,00,00,00,c0,d4,01,00,02,00,00,00,c0,d4,01,00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SystemEventsBroker\Parameters]
+"ServiceDll"=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,\
+  00,74,00,25,00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,\
+  53,00,79,00,73,00,74,00,65,00,6d,00,45,00,76,00,65,00,6e,00,74,00,73,00,42,\
+  00,72,00,6f,00,6b,00,65,00,72,00,53,00,65,00,72,00,76,00,65,00,72,00,2e,00,\
+  64,00,6c,00,6c,00,00,00
+"ServiceDllUnloadOnStop"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SystemEventsBroker\Parameters\EventPolicyTable]
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SystemEventsBroker\Parameters\EventPolicyTable\SebACPowered]
+"GeneralAppsAllowed"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SystemEventsBroker\Parameters\EventPolicyTable\SebBackgroundDownload]
+"GeneralAppsAllowed"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SystemEventsBroker\Parameters\EventPolicyTable\SebBackgroundWorkCostHigh]
+"GeneralAppsAllowed"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SystemEventsBroker\Parameters\EventPolicyTable\SebCachedFileUpdated]
+"GeneralAppsAllowed"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SystemEventsBroker\Parameters\EventPolicyTable\SebChatNotification]
+"GeneralAppsAllowed"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SystemEventsBroker\Parameters\EventPolicyTable\SebDeviceServicing]
+"GeneralAppsAllowed"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SystemEventsBroker\Parameters\EventPolicyTable\SebDeviceUse]
+"GeneralAppsAllowed"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SystemEventsBroker\Parameters\EventPolicyTable\SebDisplayOn]
+"GeneralAppsAllowed"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SystemEventsBroker\Parameters\EventPolicyTable\SebFreeNetwork]
+"GeneralAppsAllowed"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SystemEventsBroker\Parameters\EventPolicyTable\SebImmediate]
+"GeneralAppsAllowed"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SystemEventsBroker\Parameters\EventPolicyTable\SebInfrastructureCondition]
+"GeneralAppsAllowed"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SystemEventsBroker\Parameters\EventPolicyTable\SebInternetAvailable]
+"GeneralAppsAllowed"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SystemEventsBroker\Parameters\EventPolicyTable\SebInternetAvailableLevelDown]
+"GeneralAppsAllowed"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SystemEventsBroker\Parameters\EventPolicyTable\SebInternetAvailableLevelUp]
+"GeneralAppsAllowed"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SystemEventsBroker\Parameters\EventPolicyTable\SebLockScreenAppAdded]
+"GeneralAppsAllowed"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SystemEventsBroker\Parameters\EventPolicyTable\SebLockScreenAppRemoved]
+"GeneralAppsAllowed"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SystemEventsBroker\Parameters\EventPolicyTable\SebMobileOperatorNotification]
+"GeneralAppsAllowed"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SystemEventsBroker\Parameters\EventPolicyTable\SebNetworkOperatorHotSpotAuthEvent]
+"GeneralAppsAllowed"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SystemEventsBroker\Parameters\EventPolicyTable\SebNetworkStateChange]
+"GeneralAppsAllowed"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SystemEventsBroker\Parameters\EventPolicyTable\SebOEMPreInstall]
+"GeneralAppsAllowed"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SystemEventsBroker\Parameters\EventPolicyTable\SebOnlineIdConnectedStateChange]
+"GeneralAppsAllowed"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SystemEventsBroker\Parameters\EventPolicyTable\SebPrint]
+"GeneralAppsAllowed"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SystemEventsBroker\Parameters\EventPolicyTable\SebServiceComplete]
+"GeneralAppsAllowed"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SystemEventsBroker\Parameters\EventPolicyTable\SebSessionConnected]
+"GeneralAppsAllowed"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SystemEventsBroker\Parameters\EventPolicyTable\SebSmartCardFieldEntryNotification]
+"GeneralAppsAllowed"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SystemEventsBroker\Parameters\EventPolicyTable\SebSmartCardFieldExitNotification]
+"GeneralAppsAllowed"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SystemEventsBroker\Parameters\EventPolicyTable\SebSmartCardNotification]
+"GeneralAppsAllowed"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SystemEventsBroker\Parameters\EventPolicyTable\SebSMSMessage]
+"GeneralAppsAllowed"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SystemEventsBroker\Parameters\EventPolicyTable\SebTimeZoneChange]
+"GeneralAppsAllowed"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SystemEventsBroker\Parameters\EventPolicyTable\SebUnconstrainedBackgroundDownload]
+"GeneralAppsAllowed"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SystemEventsBroker\Parameters\EventPolicyTable\SebUserPresent]
+"GeneralAppsAllowed"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SystemEventsBroker\Parameters\EventPolicyTable\SebUserPresentLevelDown]
+"GeneralAppsAllowed"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SystemEventsBroker\Parameters\EventPolicyTable\SebUserPresentLevelUp]
+"GeneralAppsAllowed"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SystemEventsBroker\Security]
+"Security"=hex:01,00,14,80,90,00,00,00,9c,00,00,00,14,00,00,00,30,00,00,00,02,\
+  00,1c,00,01,00,00,00,02,80,14,00,ff,00,0f,00,01,01,00,00,00,00,00,01,00,00,\
+  00,00,02,00,60,00,04,00,00,00,00,00,14,00,85,00,02,00,01,01,00,00,00,00,00,\
+  05,0b,00,00,00,00,00,14,00,ff,00,0e,00,01,01,00,00,00,00,00,05,12,00,00,00,\
+  00,00,18,00,fd,00,0e,00,01,02,00,00,00,00,00,05,20,00,00,00,20,02,00,00,00,\
+  00,18,00,95,00,00,00,01,02,00,00,00,00,00,05,20,00,00,00,21,02,00,00,01,01,\
+  00,00,00,00,00,05,12,00,00,00,01,01,00,00,00,00,00,05,12,00,00,00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SystemEventsBroker\TriggerInfo]
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SystemEventsBroker\TriggerInfo\0]
+"Type"=dword:00000006
+"Action"=dword:00000001
+"GUID"=hex:67,d1,90,bc,70,94,39,41,a9,ba,be,0b,bb,f5,b7,4d
+"Data0"=hex:39,00,42,00,30,00,30,00,38,00,39,00,35,00,33,00,2d,00,46,00,31,00,\
+  39,00,35,00,2d,00,34,00,42,00,46,00,39,00,2d,00,42,00,44,00,45,00,30,00,2d,\
+  00,34,00,34,00,37,00,31,00,39,00,37,00,31,00,45,00,35,00,38,00,45,00,44,00,\
+  00,00
+"DataType0"=dword:00000002
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SystemEventsBroker\TriggerInfo\1]
+"Type"=dword:00000007
+"Action"=dword:00000001
+"GUID"=hex:16,28,7a,2d,5e,0c,fc,45,9c,e7,57,0e,5e,cd,e9,c9
+"Data0"=hex:75,08,bc,a3,3e,06,83,0d
+"DataType0"=dword:00000001
+
+
