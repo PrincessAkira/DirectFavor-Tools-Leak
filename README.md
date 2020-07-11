@@ -16,7 +16,7 @@ Im not responsible for any damage that your pc has after using these files/tweak
 You use them on your own caution. Please do a registry backup before using
 
 # Introduction
-Hey im Akira and i wrote the Batch Scripts you can see above. These were my first ever made Batch Scripts.
+Hey im Yukii and i wrote the Batch Scripts you can see above. These were my first ever made Batch Scripts.
 They are aimed to improve the performance of a PC with tweaks i used myself at that point of time.
 I wrote them for a PC support Twitter Account i had with someone back in time named, you guessed it, DirectFavor.
 
